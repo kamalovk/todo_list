@@ -1,0 +1,20 @@
+body{
+  position: relative;
+  margin: 0 auto;
+  height: 720px;
+  width: 714px;
+  /* Крупный горох */
+  background-size: 86.4px 86.4px;
+  background-repeat: repeat;
+  background-position: 43px -14px, 0px 29px;
+  background-color: #c7e794;
+  background-image: radial-gradient(circle, white 11px, transparent 12px), radial-gradient(circle, white 11px, transparent 12px);
+  background-attachment: fixed;
+}
+.todo-block {
+  background-color: rgb(241, 228, 228);
+  margin: 50px auto 50px auto;
+  width: 40em;
+  min-height: 40vh;
+  max-height: 200vh;
+}
