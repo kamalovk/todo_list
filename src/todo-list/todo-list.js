@@ -11,7 +11,7 @@ export default class TodoList extends Component {
   const elements = task_data.map((item) => {
     const { id, ...itemProps} = item;
     return(
-      <div key={id}>
+      <div key={id} className='todo-list-block'>
         <TodoItem 
           {...itemProps}
           onDeleted = {() => onDeleted(id)}

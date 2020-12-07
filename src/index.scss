@@ -1,0 +1,18 @@
+body{
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(82,82,115,1) 35%, rgba(0,212,255,1) 100%);
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  
+  .todo-block {
+    width: 720px;
+    margin-bottom: 100px;
+    
+    
+    &:-webkit-scrollbar { /* chrome based */
+      width: 0px;  /* ширина scrollbar'a */
+      background: transparent;  /* опционально */
+  }
+  
+  }
+}

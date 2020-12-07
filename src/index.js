@@ -4,7 +4,7 @@ import TodoList from '../src/todo-list/todo-list';
 
 import Header from '../src/header/header';
 
-import '../src/index.css';
+import '../src/index.scss';
 import ItemAdd from '../src/item-add/item-add';
 
 class App extends Component {
